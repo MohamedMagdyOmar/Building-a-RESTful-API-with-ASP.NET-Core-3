@@ -8,6 +8,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace CourseLibrary.API.Controllers
 {
+    // here we have to define it once, and no need to define the attribute on each action
     [Route("api/[controller]")]
 
     // ApiController attribute is not strictly necessary, but we need it, 
@@ -28,10 +29,18 @@ namespace CourseLibrary.API.Controllers
         {
             _courseLibraryRepository = courseLibraryRepository ?? throw new ArgumentNullException(nameof(courseLibraryRepository));
         }
+        [HttpGet()]
         public IActionResult GetAuthors()
         {
            var authorsFromRepository = _courseLibraryRepository.GetAuthors();
             return new JsonResult(authorsFromRepository);
+        }
+
+        [HttpGet("{authorId:guid}")]
+        public IActionResult GetAuthor(Guid authorId)
+        {
+            var authorFromRepository = _courseLibraryRepository.GetAuthor(authorId);
+            return new JsonResult(authorFromRepository);
         }
     }
 }
