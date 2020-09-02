@@ -32,7 +32,7 @@ namespace CourseLibrary.API.Controllers
             _courseLibraryRepository = courseLibraryRepository ?? throw new ArgumentNullException(nameof(courseLibraryRepository));
         }
         [HttpGet()]
-        public IActionResult GetAuthors()
+        public ActionResult<IEnumerable<AuthorDto>> GetAuthors()
         {
            var authorsFromRepository = _courseLibraryRepository.GetAuthors();
             List<AuthorDto> authors = new List<AuthorDto>();
