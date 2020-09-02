@@ -60,5 +60,3 @@ D:\Repo\Building a RESTful API with ASP.NET Core 3\CourseLibrary\CourseLibrary.A
 D:\Repo\Building a RESTful API with ASP.NET Core 3\CourseLibrary\CourseLibrary.API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 D:\Repo\Building a RESTful API with ASP.NET Core 3\CourseLibrary\CourseLibrary.API\bin\Debug\netcoreapp3.1\Humanizer.dll
 D:\Repo\Building a RESTful API with ASP.NET Core 3\CourseLibrary\CourseLibrary.API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
-D:\Repo\Building a RESTful API with ASP.NET Core 3\CourseLibrary\CourseLibrary.API\obj\Debug\netcoreapp3.1\CourseLibrary.API.csproj.CoreCompileInputs.cache
-D:\Repo\Building a RESTful API with ASP.NET Core 3\CourseLibrary\CourseLibrary.API\obj\Debug\netcoreapp3.1\CourseLibrary.API.MvcApplicationPartsAssemblyInfo.cache
