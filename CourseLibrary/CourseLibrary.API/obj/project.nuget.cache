@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "y1DGQdICsfaBpokGTYPDYwniWyDsMKEJLnj8FF4h2sXHdZPiyL0Gkvj3oMwScDSOEQhih9Kfe2y4uWga+u1XZA==",
+  "dgSpecHash": "2KPatFvYtdQQiwL/O0Cck5DT/SzNmUUoMYoYo5DAbZNVMWJguIQIR5vLn9MAAd2DXUdmxWkHUn7mxZCrUmzDEw==",
   "success": true,
   "projectFilePath": "D:\\Repo\\Building a RESTful API with ASP.NET Core 3\\CourseLibrary\\CourseLibrary.API\\CourseLibrary.API.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\eng_m\\.nuget\\packages\\automapper\\10.0.0\\automapper.10.0.0.nupkg.sha512",
+    "C:\\Users\\eng_m\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.0.1\\automapper.extensions.microsoft.dependencyinjection.8.0.1.nupkg.sha512",
     "C:\\Users\\eng_m\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\eng_m\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\eng_m\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.0\\microsoft.data.sqlclient.2.0.0.nupkg.sha512",
@@ -66,7 +68,7 @@
     "C:\\Users\\eng_m\\.nuget\\packages\\system.private.datacontractserialization\\4.3.0\\system.private.datacontractserialization.4.3.0.nupkg.sha512",
     "C:\\Users\\eng_m\\.nuget\\packages\\system.private.uri\\4.3.2\\system.private.uri.4.3.2.nupkg.sha512",
     "C:\\Users\\eng_m\\.nuget\\packages\\system.reflection\\4.3.0\\system.reflection.4.3.0.nupkg.sha512",
-    "C:\\Users\\eng_m\\.nuget\\packages\\system.reflection.emit\\4.3.0\\system.reflection.emit.4.3.0.nupkg.sha512",
+    "C:\\Users\\eng_m\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512",
     "C:\\Users\\eng_m\\.nuget\\packages\\system.reflection.emit.ilgeneration\\4.3.0\\system.reflection.emit.ilgeneration.4.3.0.nupkg.sha512",
     "C:\\Users\\eng_m\\.nuget\\packages\\system.reflection.emit.lightweight\\4.3.0\\system.reflection.emit.lightweight.4.3.0.nupkg.sha512",
     "C:\\Users\\eng_m\\.nuget\\packages\\system.reflection.extensions\\4.3.0\\system.reflection.extensions.4.3.0.nupkg.sha512",
