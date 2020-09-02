@@ -1,4 +1,7 @@
 ﻿using AutoMapper;
+using CourseLibrary.API.Entities;
+using CourseLibrary.API.Helpers;
+using CourseLibrary.API.Models;
 using Microsoft.EntityFrameworkCore.ChangeTracking;
 using System;
 using System.Collections.Generic;
@@ -11,7 +14,15 @@ namespace CourseLibrary.API.Profiles
     {
         public AuthorsProfile()
         {
-
+            CreateMap<Author, AuthorDto>().
+                ForMember(
+                    dest => dest.Name,
+                    opt => opt.MapFrom(src => $"{src.FirstName} {src.LastName}")
+                ).ForMember
+                (
+                    dest => dest.Age,
+                    opt => opt.MapFrom(src => src.DateOfBirth.GetCurrentAge())
+                );
         }
     }
 }
